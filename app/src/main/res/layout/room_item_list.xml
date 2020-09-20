@@ -29,6 +29,7 @@
                 android:orientation="vertical">
 
                 <TextView
+                    android:id="@+id/priceTxt"
                     android:layout_width="match_parent"
                     android:layout_height="wrap_content"
                     android:text="1억 2,000"
@@ -37,6 +38,7 @@
                     android:textColor="#FFA509"/>
 
                 <TextView
+                    android:id="@+id/addressAndFloorTxt"
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
                     android:text="마포구 서교동, 5층"
@@ -44,11 +46,14 @@
                     android:textSize="16sp" />
 
                 <TextView
+                    android:id="@+id/descriptionTxt"
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
                     android:text="홍대입구역 인근 원룸...." />
 
             </LinearLayout>
+
+        </LinearLayout>
 
     </LinearLayout>
 
