@@ -35,7 +35,7 @@ class Room(
             val thousand = this.price % 10000
             val thousandStr = NumberFormat.getNumberInstance(Locale.KOREA).format(thousand)
 
-            return "$(mk)억 $(thousandStr)"
+            return "${mk}억 ${thousandStr}"
         }
     }
 
