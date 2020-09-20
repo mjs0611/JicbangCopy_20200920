@@ -9,7 +9,7 @@ import kr.co.tjoeun.jicbangcopy_20200920.datas.Room
 
 abstract class ViewRoomDetailActivity : BaseActivity() {
 
-    lateinit var mRoomData
+    lateinit var mRoomData : Room
 
     override fun onCreate(savedInstanceState: Bundle?) {
         super.onCreate(savedInstanceState)
